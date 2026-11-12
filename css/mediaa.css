@@ -1,0 +1,545 @@
+ @media screen and (max-width:576px){
+nav {
+        width: 92%;
+        position: fixed;
+        top: 10px;
+        left: 4%;
+        height: auto;
+        padding: 12px 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: none;
+    }
+.left-logo h2,.left-logo span{
+    font-size: 25px;
+}
+.mid-sections,.right-btn{
+    display: none;
+}
+#HOME{
+    height: 135vh;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+}
+.left-home{
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+}
+.right-home {
+        width: 100%;
+        margin-top: 30px;
+    }
+.right-home img{
+    position: absolute;
+    top: 720px;
+    right: -70px;
+}
+.hidder-latest span{
+display: none;
+}
+.hidder-latest h1{
+    margin-left: -130px;
+}
+.latest{
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+.left{
+   position: relative;
+   width: 36%;
+}
+.left-card{
+display: flex;
+flex-direction: column;
+width: 390%;
+right: 80px;
+padding: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.left-btn{
+width:300%;
+}
+.right{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+.card-1{
+    width: 130%;
+}
+.card-2{
+width: 130%;
+padding: 20px;
+}
+#AUTHORS{
+    height: 160vh;
+}
+.authors{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+row-gap: 30px;
+}
+.author-item{
+    width: 95%;
+}
+.square{
+    display: none;
+}
+.title-auth hr{
+    width: 20%;
+}
+
+.commun-text hr{
+width: 20%;
+}
+
+.communtity-card{
+    display: flex;
+    flex-direction: column;
+}
+.left-commu{
+    width: 100%;
+}
+
+.right-commu{
+    width: 100%;
+}
+
+
+
+footer{
+    height: 90vh;
+}
+
+.parent-fotter{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-footer{
+    width: 100%;
+    padding: 20px;
+}
+.middle-footer{
+    width: 100%;
+    padding: 20px;
+}
+.right-footer{
+    width: 100%;
+    padding: 20px;
+    margin-left: -5px;
+}
+.policy{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+}
+.policy p{
+    margin: 20px;
+    font-size: 15px;
+}
+.policy ul li{
+    font-size: 15px;
+}
+
+} 
+
+
+
+
+@media screen and (min-width: 576px) and (max-width: 768px){
+   nav {
+        width: 97%;
+        position: fixed;
+        top: 10px;
+        left: 1%;
+        height: auto;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: none;
+    }
+.left-logo h2,.left-logo span{
+    font-size: 30px;
+}
+.mid-sections,.right-btn{
+    display: none;
+}
+#HOME{
+    height: 135vh;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+}
+.left-home{
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+}
+
+.left-home p{
+    font-size: 30px;
+    padding: 15px;
+}
+.right-home {
+        width: 110%;
+        margin-top: 20px;
+    }
+.right-home img{
+transform: translate(0px,0px);
+margin-right: -80px;
+width: 170%;
+    }
+.right-home img:hover{
+     transform: rotate(0deg) translate(-3px, -3px);
+}
+    .right-home span{
+        display: none;
+    }
+.right-home img{
+    position: absolute;
+    top: 720px;
+    right: -40px;
+}
+.hidder-latest span{
+display: none;
+}
+.hidder-latest h1{
+    margin-left: -120px;
+}
+.latest{
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+.left{
+   position: relative;
+   width: 34%;
+}
+.left-card{
+display: flex;
+flex-direction: column;
+width: 400%;
+right: 80px;
+padding: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+}
+.left-btn{
+width:300%;
+}
+.right{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: -60px;
+}
+.card-1{
+    width: 130%;
+}
+.card-2{
+width: 130%;
+padding: 20px;
+}
+#AUTHORS{
+    height: 145vh;
+}
+.authors{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+row-gap: 30px;
+}
+.author-item{
+    width: 97%;
+    padding: 10;
+}
+.person img{
+    width: 18%;
+}
+.square{
+    display: none;
+}
+.title-auth hr{
+    width: 20%;
+}
+
+.commun-text hr{
+width: 20%;
+}
+
+.communtity-card{
+    display: flex;
+    flex-direction: column;
+}
+.left-commu{
+    width: 100%;
+}
+
+.right-commu{
+    width: 100%;
+}
+
+
+
+footer{
+    height: 90vh;
+}
+
+.parent-fotter{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-footer{
+    width: 100%;
+    padding: 20px;
+}
+.middle-footer{
+    width: 100%;
+    padding: 20px;
+}
+.right-footer{
+    width: 100%;
+    padding: 20px;
+    margin-left: -5px;
+}
+.policy{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+}
+.policy p{
+    margin: 20px;
+    font-size: 15px;
+}
+.policy ul li{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+@media screen and (min-width: 768px) and (max-width:992px){
+    nav {
+        width: 97%;
+        position: fixed;
+        top: 10px;
+        left: 1%;
+        height: auto;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        transform: none;
+    }
+.left-logo h2,.left-logo span{
+    font-size: 30px;
+}
+.mid-sections,.right-btn{
+    display: none;
+}
+#HOME{
+    height: 130vh;
+}
+.home-content{
+    display: flex;
+    flex-direction: column;
+}
+.left-home{
+    position: absolute;
+    left: 20px;
+    padding: 10px;
+}
+
+.left-home p{
+    font-size: 30px;
+    padding: 15px ;
+    width: 100%;
+}
+.right-home {
+        width: 110%;
+        margin-top: 20px;
+    }
+.right-home img{
+    margin-top: 1px;
+transform: translate(0px,0px);
+margin-right: -70px;
+width: 160%;
+    }
+.right-home img:hover{
+     transform: rotate(0deg) translate(-3px, -3px);
+}
+    .right-home span{
+        display: none;
+    }
+.right-home img{
+    position: absolute;
+    top: 720px;
+    right: -40px;
+}
+.hidder-latest span{
+display: none;
+}
+.hidder-latest h1{
+    margin-left: -120px;
+}
+.latest{
+display: flex;
+flex-direction: column;
+padding: 0;
+}
+.left{
+   position: relative;
+   width: 32%;
+}
+.left-card{
+display: flex;
+flex-direction: column;
+width: 400%;
+right: 80px;
+padding: 20px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px;
+}
+.left-btn{
+width:300%;
+}
+.right{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: -80px;
+}
+.card-1{
+    width: 130%;
+}
+.card-2{
+width: 130%;
+padding: 20px;
+}
+#AUTHORS{
+    height: 150vh;
+}
+.authors{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+row-gap: 30px;
+}
+.author-item{
+    width: 97%;
+    padding: 10;
+}
+.person img{
+    width: 18%;
+}
+.square{
+    display: none;
+}
+.title-auth hr{
+    width: 20%;
+}
+
+.commun-text hr{
+width: 20%;
+}
+
+.communtity-card{
+    display: flex;
+    flex-direction: column;
+}
+.left-commu{
+    width: 100%;
+}
+
+.right-commu{
+    width: 100%;
+}
+
+
+
+footer{
+    height: 90vh;
+}
+
+.parent-fotter{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-footer{
+    width: 100%;
+    padding: 20px;
+}
+.middle-footer{
+    width: 100%;
+    padding: 20px;
+}
+.right-footer{
+    width: 100%;
+    padding: 20px;
+    margin-left: -5px;
+}
+
+.policy{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 10px;
+}
+.policy p{
+    margin: 20px;
+    font-size: 15px;
+}
+.policy ul li{
+    font-size: 15px;
+}
+
+
+
+
+
+}
+
+
+
